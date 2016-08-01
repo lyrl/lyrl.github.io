@@ -389,41 +389,16 @@
         
         <div class="article-entry" itemprop="articleBody">
         
-            
-            <h2 id="1-通过用户ID获取imei信息"><a href="#1-通过用户ID获取imei信息" class="headerlink" title="1. 通过用户ID获取imei信息"></a>1. 通过用户ID获取imei信息</h2><p><strong>URI:</strong> <a href="http://app1.moootooo.com:8001/api/getuserinfo.php?upid={}" target="_blank" rel="external">http://app1.moootooo.com:8001/api/getuserinfo.php?upid={}</a></p>
+            <p><h2 id="1-通过用户ID获取imei信息"><a href="#1-通过用户ID获取imei信息" class="headerlink" title="1. 通过用户ID获取imei信息"></a>1. 通过用户ID获取imei信息</h2><p><strong>URI:</strong> <a href="http://app1.moootooo.com:8001/api/getuserinfo.php?upid={}">http://app1.moootooo.com:8001/api/getuserinfo.php?upid={}</a></p>
 <ul>
-<li><p><strong>参数:</strong></p>
-<ul>
+<li><strong>参数:</strong><ul>
 <li>upid 遍历  1000271859</li>
 </ul>
 </li>
-<li><p><strong>返回</strong></p>
-</li>
-</ul>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"STARTTIME"</span>: <span class="string">"2016-04-10"</span>,</div><div class="line">  <span class="attr">"ENDDATE"</span>: <span class="string">"2017-04-10"</span>,</div><div class="line">  <span class="attr">"NICKNAME"</span>: <span class="literal">null</span>,</div><div class="line">  <span class="attr">"AVATOR"</span>: <span class="literal">null</span>,</div><div class="line">  <span class="attr">"MODEL"</span>: <span class="literal">null</span>,</div><div class="line">  <span class="attr">"BRAND"</span>: <span class="literal">null</span>,</div><div class="line">  <span class="attr">"MID"</span>: <span class="string">"56001167"</span>,</div><div class="line">  <span class="attr">"VERSION"</span>: <span class="string">"k61"</span>,</div><div class="line">  <span class="attr">"IMEI"</span>: <span class="string">"356802030712896"</span>,</div><div class="line">  <span class="attr">"avator_url"</span>: <span class="string">"http://photo.moootooo.com/images/header.jpg"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="2-获取经纬度"><a href="#2-获取经纬度" class="headerlink" title="2. 获取经纬度"></a>2. 获取经纬度</h2><p><strong>URI:</strong> <a href="http://app1.moootooo.com:8001/api/getlatlng_baidu.php?imei={}" target="_blank" rel="external">http://app1.moootooo.com:8001/api/getlatlng_baidu.php?imei={}</a></p>
-<ul>
-<li><strong>参数:</strong><ul>
-<li>imei </li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong>返回</strong></li>
-</ul>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"lat"</span>: <span class="number">116.3081913</span>,</div><div class="line">  <span class="attr">"lng"</span>: <span class="number">40.060944</span>,</div><div class="line">  <span class="attr">"time"</span>: <span class="string">"2016-07-28 09:47:11"</span>,</div><div class="line">  <span class="attr">"speed"</span>: <span class="string">"0.00"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="3-获取机车基础信息"><a href="#3-获取机车基础信息" class="headerlink" title="3. 获取机车基础信息"></a>3. 获取机车基础信息</h2><p><strong>URI:</strong> <a href="http://app1.moootooo.com:8001/api/getdeviceall.php?imei={}" target="_blank" rel="external">http://app1.moootooo.com:8001/api/getdeviceall.php?imei={}</a></p>
-<ul>
-<li><p><strong>参数:</strong></p>
-<ul>
-<li>imei </li>
-</ul>
-</li>
-<li><p><strong>返回</strong></p>
-</li>
-</ul>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"gsm"</span>: <span class="string">"良"</span>,</div><div class="line">  <span class="attr">"dianchi_img"</span>: <span class="string">"4.03"</span>,</div><div class="line">  <span class="attr">"dianp_img"</span>: <span class="string">"12.54"</span>,</div><div class="line">  <span class="attr">"gps"</span>: <span class="string">"正常(14颗卫星)"</span>,</div><div class="line">  <span class="attr">"gps_ok"</span>: <span class="string">"定位成功"</span>,</div><div class="line">  <span class="attr">"check_power"</span>: <span class="string">"正常"</span>,</div><div class="line">  <span class="attr">"check_mswitch"</span>: <span class="string">"关闭"</span>,</div><div class="line">  <span class="attr">"device_status"</span>: <span class="string">"设备进入休眠状态 "</span>,</div><div class="line">  <span class="attr">"gps_status"</span>: <span class="string">"差"</span>,</div><div class="line">  <span class="attr">"haiba"</span>: <span class="string">"55.08"</span>,</div><div class="line">  <span class="attr">"sensity"</span>: <span class="string">"9"</span>,</div><div class="line">  <span class="attr">"long"</span>: <span class="number">116.295708</span>,</div><div class="line">  <span class="attr">"lat"</span>: <span class="number">40.053459</span>,</div><div class="line">  <span class="attr">"power"</span>: <span class="number">0</span>,</div><div class="line">  <span class="attr">"check_lock"</span>: <span class="number">1</span>,</div><div class="line">  <span class="attr">"check_fire_v"</span>: <span class="number">0</span>,</div><div class="line">  <span class="attr">"check_fire"</span>: <span class="string">"点火"</span>,</div><div class="line">  <span class="attr">"bufang"</span>: <span class="string">"自动"</span>,</div><div class="line">  <span class="attr">"bufang_v"</span>: <span class="number">1</span>,</div><div class="line">  <span class="attr">"chefang"</span>: <span class="string">"自动"</span>,</div><div class="line">  <span class="attr">"chefang_v"</span>: <span class="number">1</span>,</div><div class="line">  <span class="attr">"low"</span>: <span class="string">"11.8伏特"</span>,</div><div class="line">  <span class="attr">"radius"</span>: <span class="string">"无"</span>,</div><div class="line">  <span class="attr">"radius_v"</span>: <span class="number">0</span>,</div><div class="line">  <span class="attr">"delay"</span>: <span class="string">"2秒"</span>,</div><div class="line">  <span class="attr">"standby"</span>: <span class="string">"正常"</span>,</div><div class="line">  <span class="attr">"standby_v"</span>: <span class="string">"0"</span>,</div><div class="line">  <span class="attr">"status2"</span>: <span class="string">"休眠"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
+</ul></p>
+            <p class="article-more-link">
+                <a href="/2016/08/01/jicheyouxia/#more">Read More</a>
+            </p>
         
         </div>
         <footer class="article-footer">
