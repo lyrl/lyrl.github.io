@@ -3,36 +3,21 @@
 <head>
     <meta charset="utf-8">
     
-    <title>rest_api_template 接口文档模板 | Lyrl&#39;s 技术博客</title>
+    <title>ubuntu时区设置 | Lyrl&#39;s 技术博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="接口名  接口描述
-
-URL
-/a/rest/
-
-Method:
-PUT">
+    <meta name="description" content="ubuntu时区设置1. 查看可以设置的时区ls -R --group-directories-first /usr/share/zoneinfo
+12345678910111213141516/usr/share/zoneinfo/right/Asia:Aden       Bishkek     Gaza         Kashgar       Muscat        Sakhalin">
 <meta property="og:type" content="article">
-<meta property="og:title" content="rest_api_template 接口文档模板">
-<meta property="og:url" content="http://lyrl.tips/2016/08/01/rest-api-template/index.html">
+<meta property="og:title" content="ubuntu时区设置">
+<meta property="og:url" content="http://lyrl.tips/2016/08/03/ubuntu-timezone-setting/index.html">
 <meta property="og:site_name" content="Lyrl's 技术博客">
-<meta property="og:description" content="接口名  接口描述
-
-URL
-/a/rest/
-
-Method:
-PUT">
-<meta property="og:updated_time" content="2016-08-01T07:28:42.322Z">
+<meta property="og:description" content="ubuntu时区设置1. 查看可以设置的时区ls -R --group-directories-first /usr/share/zoneinfo
+12345678910111213141516/usr/share/zoneinfo/right/Asia:Aden       Bishkek     Gaza         Kashgar       Muscat        Sakhalin">
+<meta property="og:updated_time" content="2016-08-03T03:29:31.156Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="rest_api_template 接口文档模板">
-<meta name="twitter:description" content="接口名  接口描述
-
-URL
-/a/rest/
-
-Method:
-PUT">
+<meta name="twitter:title" content="ubuntu时区设置">
+<meta name="twitter:description" content="ubuntu时区设置1. 查看可以设置的时区ls -R --group-directories-first /usr/share/zoneinfo
+12345678910111213141516/usr/share/zoneinfo/right/Asia:Aden       Bishkek     Gaza         Kashgar       Muscat        Sakhalin">
 <meta name="twitter:creator" content="@lyrl">
     
 
@@ -216,7 +201,7 @@ PUT">
 </aside>
 
             
-            <section id="main"><article id="post-rest-api-template" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-ubuntu-timezone-setting" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -225,7 +210,7 @@ PUT">
                 
     
         <h1 class="article-title" itemprop="name">
-            rest_api_template 接口文档模板
+            ubuntu时区设置
         </h1>
     
 
@@ -234,8 +219,8 @@ PUT">
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2016/08/01/rest-api-template/">
-            <time datetime="2016-07-31T21:54:38.000Z" itemprop="datePublished">2016-08-01</time>
+        <a href="/2016/08/03/ubuntu-timezone-setting/">
+            <time datetime="2016-08-03T03:27:00.000Z" itemprop="datePublished">2016-08-03</time>
         </a>
     </div>
 
@@ -244,7 +229,7 @@ PUT">
                         
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/rest/">rest</a>, <a class="tag-link" href="/tags/web/">web</a>
+        <a class="tag-link" href="/tags/timezone/">timezone</a>, <a class="tag-link" href="/tags/ubuntu/">ubuntu</a>
     </div>
 
                     </div>
@@ -254,45 +239,11 @@ PUT">
         <div class="article-entry" itemprop="articleBody">
         
             
-            <h2 id="接口名"><a href="#接口名" class="headerlink" title="接口名"></a><strong>接口名</strong></h2><p>  接口描述</p>
-<ul>
-<li><p><strong>URL</strong></p>
-<p>/a/rest/</p>
-</li>
-<li><p><strong>Method:</strong></p>
-<p><code>PUT</code></p>
-</li>
-</ul>
-<a id="more"></a>  
-<ul>
-<li><p><strong>URL Params</strong></p>
-<p><strong>Required:</strong></p>
-<p><code>id=[String]</code> ID</p>
-</li>
-<li><p><strong>Data Params</strong></p>
-<p><strong>Required:</strong></p>
-<p> <code>desc=[String]</code> 描述</p>
-</li>
-<li><p><strong>Success Response:</strong></p>
-<ul>
-<li><strong>Code:</strong> 200 <br><br><strong>Content:</strong> <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"><span class="attr">"success"</span>: <span class="literal">true</span>,</div><div class="line"><span class="attr">"msg"</span>: <span class="string">"提交成功!"</span>,</div><div class="line"><span class="attr">"timestamp"</span>: <span class="number">1464318030110</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><p><strong>Error Response:</strong></p>
-<ul>
-<li><strong>Error:</strong> 房源不存在 <br><br><strong>Content:</strong> <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"> <span class="attr">"success"</span>: <span class="literal">false</span>,</div><div class="line"> <span class="attr">"msg"</span>: <span class="string">"房源不存在!"</span>,</div><div class="line"> <span class="attr">"err_code"</span>: <span class="string">""</span>,</div><div class="line"> <span class="attr">"timestamp"</span>: <span class="number">1464318083587</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>OR</p>
-<ul>
-<li><strong>Error:</strong> 价格不能为空 <br><br><strong>Content:</strong> <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"> <span class="attr">"success"</span>: <span class="literal">false</span>,</div><div class="line"> <span class="attr">"msg"</span>: <span class="string">"价格不能为空!"</span>,</div><div class="line"> <span class="attr">"err_code"</span>: <span class="string">""</span>,</div><div class="line"> <span class="attr">"timestamp"</span>: <span class="number">1464318083587</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ul>
+            <h2 id="ubuntu时区设置"><a href="#ubuntu时区设置" class="headerlink" title="ubuntu时区设置"></a>ubuntu时区设置</h2><h3 id="1-查看可以设置的时区"><a href="#1-查看可以设置的时区" class="headerlink" title="1. 查看可以设置的时区"></a>1. 查看可以设置的时区</h3><p><code>ls -R --group-directories-first /usr/share/zoneinfo</code></p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">/usr/share/zoneinfo/right/Asia:</div><div class="line"><span class="symbol">Aden</span>       <span class="keyword">Bishkek </span>    Gaza         Kashgar       Muscat        Sakhalin       Tomsk</div><div class="line"><span class="symbol">Almaty</span>     <span class="keyword">Brunei </span>     Harbin       Kathmandu     Nicosia       Samarkand      Ujung_Pandang</div><div class="line"><span class="symbol">Amman</span>      Calcutta    Hebron       Katmandu      Novokuznetsk  Seoul          Ulaanbaatar</div><div class="line"><span class="symbol">Anadyr</span>     Chita       Ho_Chi_Minh  Khandyga      Novosibirsk   Shanghai       Ulan_Bator</div><div class="line"><span class="symbol">Aqtau</span>      Choibalsan  Hong_Kong    Kolkata       Omsk          Singapore      Urumqi</div><div class="line"><span class="symbol">Aqtobe</span>     Chongqing   Hovd         Krasnoyarsk   Oral          Srednekolymsk  Ust-Nera</div><div class="line"><span class="symbol">Ashgabat</span>   Chungking   Irkutsk      Kuala_Lumpur  Phnom_Penh    Taipei         Vientiane</div><div class="line"><span class="symbol">Ashkhabad</span>  Colombo     Istanbul     Kuching       Pontianak     Tashkent       Vladivostok</div><div class="line"><span class="keyword">Baghdad </span>   Dacca       Jakarta      Kuwait        Pyongyang     Tbilisi        Yakutsk</div><div class="line"><span class="keyword">Bahrain </span>   Damascus    Jayapura     Macao         Qatar         Tehran         Yekaterinburg</div><div class="line"><span class="keyword">Baku </span>      Dhaka       Jerusalem    Macau         Qyzylorda     Tel_Aviv       Yerevan</div><div class="line"><span class="keyword">Bangkok </span>   Dili        Kabul        Magadan       Rangoon       Thimbu</div><div class="line"><span class="keyword">Barnaul </span>   Dubai       Kamchatka    Makassar      Riyadh        Thimphu</div><div class="line"><span class="keyword">Beirut </span>    Dushanbe    Karachi      Manila        Saigon        Tokyo</div></pre></td></tr></table></figure>
+<p>中国就选择 <code>Asia/Chongqing</code> 既可以</p>
+<h3 id="2-修改时区"><a href="#2-修改时区" class="headerlink" title="2. 修改时区"></a>2. 修改时区</h3><pre><code>timedatectl set-timezone Asia/Chongqing
+</code></pre><p>ok <code>date</code>看一下时间正常了</p>
 
         
         </div>
@@ -303,7 +254,7 @@ PUT">
 
 </div>
 
-    <a data-url="http://lyrl.tips/2016/08/01/rest-api-template/" data-id="cirec2pp600008sw1w9w6939r" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://lyrl.tips/2016/08/03/ubuntu-timezone-setting/" data-id="cirec2ppd00028sw1m2i44zr6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -371,7 +322,7 @@ PUT">
 
             
     
-        <a href="http://lyrl.tips/2016/08/01/rest-api-template/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://lyrl.tips/2016/08/01/rest-api-template/">Comments</a>
+        <a href="http://lyrl.tips/2016/08/03/ubuntu-timezone-setting/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://lyrl.tips/2016/08/03/ubuntu-timezone-setting/">Comments</a>
     
 
         </footer>
@@ -380,15 +331,11 @@ PUT">
         
 <nav id="article-nav">
     
-        <a href="/2016/08/03/ubuntu-timezone-setting/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
-            <div class="article-nav-title">
-                
-                    ubuntu时区设置
-                
-            </div>
-        </a>
     
+        <a href="/2016/08/01/rest-api-template/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">rest_api_template 接口文档模板</div>
+        </a>
     
 </nav>
 
@@ -487,9 +434,9 @@ PUT">
     <script>
     var disqus_config = function () {
         
-            this.page.url = 'http://lyrl.tips/2016/08/01/rest-api-template/';
+            this.page.url = 'http://lyrl.tips/2016/08/03/ubuntu-timezone-setting/';
         
-        this.page.identifier = 'rest-api-template';
+        this.page.identifier = 'ubuntu-timezone-setting';
     };
     (function() { 
         var d = document, s = d.createElement('script');  
